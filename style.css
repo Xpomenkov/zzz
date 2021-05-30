@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+       display: flex;
+       margin-top: 50px;
+       list-style-type: none;
+
+   }
+ .logo a{
+     text-decoration: none;
+     padding: 35px 30px 5px 30px;
+     color: #696871;
+     font-size: 15px;
+     font-weight: 700;
+ }
+
+ .logo a:hover {
+     color: #000;
+     border-bottom: 2px solid darkblue;
+ }
+
+ button{
+     width: 211px;
+     height: 60px;
+     background-color: #FF7143;
+     color: #fff;
+     font-size: 17px;
+     font-weight: 700;
+     border-radius: 10px;
+     border-style: none;
+ }
+
+ /* BG */
+
+ .bg__content {
+     display: flex;
+     margin-top: 150px;
+ }
+
+ .bg button {
+    background-color:#5454D4;
+    
+ }
+
+ /* Logotips */
+
+ .stroka__logo {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 70px;         
+    }
+
+    /* Botanik */
+
+    .botanik__content{
+        display: flex;
+        align-items: center;
+        margin-top: 150px;
+        justify-content: space-around;
+    }
+
+    /* Statistik */
+    .statistik__items{
+        display: flex;
+        align-items: center;
+        margin-top: 150px;
+        justify-content: space-around;
+
+    }
